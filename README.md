@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# scrapy-zhihu
-=======
 # scrapy-zhihu
 基于scrapy框架采用异步高并发的方式抓取知乎千万用户信息
 ## 概述
@@ -29,4 +26,3 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 REDIS_URL = 'redis://root:@192.168.2.100:6379'
 SCHEDULER_PERSIST = True
 ```
->>>>>>> 81413805bcaf6483b5bb7697cdea87dc85d313d2
